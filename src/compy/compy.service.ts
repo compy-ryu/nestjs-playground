@@ -1,11 +1,12 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, UseFilters } from '@nestjs/common';
 import { CreateCompyDto } from './dto/create-compy.dto';
 import { UpdateCompyDto } from './dto/update-compy.dto';
 
 @Injectable()
 export class CompyService {
   create(createCompyDto: CreateCompyDto) {
-    return 'This action adds a new compy';
+    const { name, age } = createCompyDto;
+    return `This action adds a new compy(${name}, ${age})`;
   }
 
   findAll() {
