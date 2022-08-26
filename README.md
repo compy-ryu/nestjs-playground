@@ -11,7 +11,8 @@
 * [ ] JWT
 * [ ] Image Upload
 * [ ] Image Crop
-* [ ] 
+
+
 
 ## Installation
 
