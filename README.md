@@ -9,7 +9,7 @@
 * [x] Module
 * [x] Swagger
 * [x] TypeOrm
-  * [ ] Indices
+  * [x] Indices
   * [ ] migration
     * [ ] generate : ⚠️ 컬럼 타입/길이 수정 시 Drop 명령어가 실행되어 데이터 날라감.
 
